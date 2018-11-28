@@ -53,61 +53,52 @@
 				</div>
 			</section>
 			<section class="header_text sub">
-			<img class="pageBanner" src="themes/images/carousel/banner-1.jpg" alt="New products" >
-				<h4><span>Login or Regsiter</span></h4>
+			<img class="pageBanner" width=100%; src="themes/images/orth_banner.jpg" alt="New products" >
+				<h4><span>Orthopedics Products</span></h4>
 			</section>
 			<section class="main-content">
+
 				<div class="row">
-					<div class="span5">
-						<h4 class="title"><span class="text"><strong>Login</strong> Form</span></h4>
-						<form action="#" method="post">
-							<input type="hidden" name="next" value="/">
-							<fieldset>
-								<div class="control-group">
-									<label class="control-label">Username</label>
-									<div class="controls">
-										<input type="text" placeholder="Enter your username" id="username" class="input-xlarge">
-									</div>
+					<div class="span9">
+						<ul class="thumbnails listing-products">
+							<li class="span3">
+								<div class="product-box">
+									<span class="sale_tag"></span>
+									<a href="product_detail.html"><img alt="" src="themes/images/ladies/9.jpg"></a><br/>
+									<a href="product_detail.html" class="title">Fusce id molestie massa</a><br/>
+									<a href="#" class="category">Phasellus consequat</a>
+									<p class="price">$341</p>
 								</div>
-								<div class="control-group">
-									<label class="control-label">Password</label>
-									<div class="controls">
-										<input type="password" placeholder="Enter your password" id="password" class="input-xlarge">
-									</div>
+							</li>
+							<li class="span3">
+								<div class="product-box">
+									<a href="product_detail.html"><img alt="" src="themes/images/ladies/8.jpg"></a><br/>
+									<a href="product_detail.html" class="title">Praesent tempor sem</a><br/>
+									<a href="#" class="category">Erat gravida</a>
+									<p class="price">$28</p>
 								</div>
-								<div class="control-group">
-									<input tabindex="3" class="btn btn-inverse large" type="submit" value="Sign into your account">
-									<hr>
+							</li>
+							<li class="span3">
+								<div class="product-box">
+									<span class="sale_tag"></span>
+									<a href="product_detail.html"><img alt="" src="themes/images/ladies/7.jpg"></a><br/>
+									<a href="product_detail.html" class="title">Wuam ultrices rutrum</a><br/>
+									<a href="#" class="category">Suspendisse aliquet</a>
+									<p class="price">$341</p>
 								</div>
-							</fieldset>
-						</form>
-					</div>
-					<div class="span7">
-						<h4 class="title"><span class="text"><strong>Register</strong> Form</span></h4>
-						<form action="#" method="post" class="form-stacked">
-							<fieldset>
-								<div class="control-group">
-									<label class="control-label">Username</label>
-									<div class="controls">
-										<input type="text" placeholder="Enter your username" class="input-xlarge">
-									</div>
-								</div>
-								<div class="control-group">
-									<label class="control-label">Email address:</label>
-									<div class="controls">
-										<input type="password" placeholder="Enter your email" class="input-xlarge">
-									</div>
-								</div>
-								<div class="control-group">
-									<label class="control-label">Password:</label>
-									<div class="controls">
-										<input type="password" placeholder="Enter your password" class="input-xlarge">
-									</div>
-								</div>
-								<hr>
-								<div class="actions"><input tabindex="9" class="btn btn-inverse large" type="submit" value="Create your account"></div>
-							</fieldset>
-						</form>
+							</li>
+						</ul>
+						<hr>
+						<div class="pagination pagination-small pagination-centered">
+							<ul>
+								<li><a href="#">Prev</a></li>
+								<li class="active"><a href="#">1</a></li>
+								<li><a href="#">2</a></li>
+								<li><a href="#">3</a></li>
+								<li><a href="#">4</a></li>
+								<li><a href="#">Next</a></li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</section>
@@ -131,12 +122,5 @@
 			</section>
 		</div>
 		<script src="themes/js/common.js"></script>
-		<script>
-			$(document).ready(function() {
-				$('#checkout').click(function (e) {
-					document.location.href = "checkout.html";
-				})
-			});
-		</script>
     </body>
 </html>
